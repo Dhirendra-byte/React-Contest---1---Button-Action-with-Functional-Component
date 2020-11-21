@@ -6,7 +6,6 @@ function App() {
 
   return (
     <div id="main">
-      <p id="para">{text}</p>
       <button
         id="click"
         onClick={() =>
@@ -17,6 +16,7 @@ function App() {
       >
         click here
       </button>
+      <p id="para">{text}</p>
     </div>
   );
 }
