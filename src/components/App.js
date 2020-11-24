@@ -6,17 +6,20 @@ function App() {
 
   return (
     <div id="main">
+      {text}
       <button
         id="click"
         onClick={() =>
           setText(
-            "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+            <p id="para">
+              Hello, I've learnt to use the full-stack evaluation tool. This
+              makes me so happy
+            </p>
           )
         }
       >
         click here
       </button>
-      <p id="para">{text}</p>
     </div>
   );
 }
